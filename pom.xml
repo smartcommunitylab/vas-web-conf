@@ -11,9 +11,25 @@
 		<service-engine-client>1.2</service-engine-client>
 		<semanticservice-api>1.1</semanticservice-api>
         <semanticservice-client>1.1</semanticservice-client>
+        <ac-service-provider-api>1.0</ac-service-provider-api>
+        <ac-service-provider-filter>1.0</ac-service-provider-filter>
 	</properties>
 	
 	   <dependencies>
+	    <dependency>
+            <groupId>eu.trentorise.smartcampus</groupId>
+            <artifactId>ac-service-provider-api</artifactId>
+            <version>${ac-service-provider-api}</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>eu.trentorise.smartcampus</groupId>
+            <artifactId>ac-service-provider-filter</artifactId>
+            <version>${ac-service-provider-filter}</version>
+            <type>jar</type>
+        </dependency>
+	   
+	   
         <dependency>
             <groupId>it.sayservice.platform</groupId>
             <artifactId>service-engine-client</artifactId>
@@ -85,6 +101,21 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
             <version>${spring-version}</version>
         </dependency>
         <dependency>

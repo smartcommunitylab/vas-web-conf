@@ -38,18 +38,6 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>eu.trentorise.smartcampus</groupId>
-            <artifactId>semanticservice-api</artifactId>
-            <version>${semanticservice-api}</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>eu.trentorise.smartcampus</groupId>
-            <artifactId>semanticservice-client</artifactId>
-            <version>${semanticservice-client}</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
             <groupId>it.unitn.disi.sweb</groupId>
             <artifactId>smartcampus-webapi-client</artifactId>
             <version>${semantic-webapi}</version>

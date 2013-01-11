@@ -13,7 +13,7 @@
         <semanticservice-client>1.1</semanticservice-client>
         <ac-service-provider-api>1.0</ac-service-provider-api>
         <ac-service-provider-filter>1.0</ac-service-provider-filter>
-        <semantic-webapi>2.6.0-FINAL</semantic-webapi>
+        <semantic-webapi>1.0-FINAL</semantic-webapi>
 	</properties>
 	
 	   <dependencies>

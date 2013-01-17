@@ -37,11 +37,6 @@
             <version>${service-engine-client}</version>
             <type>jar</type>
         </dependency>
-        <dependency>
-            <groupId>it.unitn.disi.sweb</groupId>
-            <artifactId>smartcampus-webapi-client</artifactId>
-            <version>${semantic-webapi}</version>
-        </dependency>
 
         <!-- Servlet and lib -->
         <dependency>

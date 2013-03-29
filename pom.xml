@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>eu.trentorise.smartcampus</groupId>
   <artifactId>vas-web-conf</artifactId>
-  <version>1.3</version>
+  <version>1.4</version>
   <packaging>pom</packaging>
 	
 	<properties>
@@ -11,8 +11,8 @@
 		<service-engine-client>1.4</service-engine-client>
 		<semanticservice-api>1.1</semanticservice-api>
         <semanticservice-client>1.1</semanticservice-client>
-        <ac-service-provider-api>1.0</ac-service-provider-api>
-        <ac-service-provider-filter>1.0</ac-service-provider-filter>
+        <ac-service-provider-api>1.1</ac-service-provider-api>
+        <ac-service-provider-filter>1.1</ac-service-provider-filter>
         <semantic-webapi>1.0-FINAL</semantic-webapi>
 	</properties>
 	
@@ -127,6 +127,12 @@
             <artifactId>spring-expression</artifactId>
             <version>${spring-version}</version>
         </dependency>
+        <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring-version}</version>
+			<scope>test</scope>
+		</dependency>
     </dependencies>
 	
 	

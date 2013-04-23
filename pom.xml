@@ -8,9 +8,6 @@
 	<properties>
 		<spring-version>3.1.0.RELEASE</spring-version>
 		<spring-security-version>3.1.0.RELEASE</spring-security-version>
-		<service-engine-client>1.4</service-engine-client>
-		<semanticservice-api>1.1</semanticservice-api>
-        <semanticservice-client>1.1</semanticservice-client>
         <ac-service-provider-api>1.1</ac-service-provider-api>
         <ac-service-provider-filter>1.1</ac-service-provider-filter>
         <semantic-webapi>1.0-FINAL</semantic-webapi>
@@ -30,14 +27,6 @@
             <type>jar</type>
         </dependency>
 	   
-	   
-        <dependency>
-            <groupId>it.sayservice.platform</groupId>
-            <artifactId>service-engine-client</artifactId>
-            <version>${service-engine-client}</version>
-            <type>jar</type>
-        </dependency>
-
         <!-- Servlet and lib -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -55,13 +44,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
-        </dependency>
-
-        <!-- JMS -->
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-core</artifactId>
-            <version>5.5.1</version>
         </dependency>
 
         <!-- Security -->

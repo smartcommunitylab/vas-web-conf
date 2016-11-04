@@ -3,14 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>eu.trentorise.smartcampus</groupId>
 	<artifactId>vas-web-conf</artifactId>
-	<version>1.7</version>
+	<version>1.8</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<spring-version>3.1.0.RELEASE</spring-version>
-		<spring-security-version>3.1.0.RELEASE</spring-security-version>
-		<semantic-webapi>1.0-FINAL</semantic-webapi>
+		<spring-version>4.0.7.RELEASE</spring-version>
+		<spring-security-version>4.0.1.RELEASE</spring-security-version>
+		<semantic-webapi>1.0-FINAL</semantic-webapi>		
 	</properties>
+	
 
 	<dependencies>
 		<dependency>
